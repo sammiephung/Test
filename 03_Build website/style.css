@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 50px;
+    background-color: lightgrey;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.left_column {
+    width: 30%;
+    height: 900px;
+    float: left;
+    background-color: lightgray;
+}
+
+.right_column {
+    width: 70%;
+    height: 900px;
+    float: left;
+    background-color: teal;
+}
+
+.profile_image {
+    text-align: center;
+    height: 200px;
+    background-color: lightgreen;
+    padding: 0;
+}
+
+#profile_image {
+    width: 50%;
+    padding-top: 35px;
+}
+
+.pet_stats {
+    height: 700px;
+    background-color: orange;
+    padding: 0;
+}
